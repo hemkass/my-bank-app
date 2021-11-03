@@ -1,9 +1,11 @@
 import "./App.css";
 
+import Accounts from "./Accounts";
+
 function App() {
   return (
     <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+      <Accounts />
     </div>
   );
 }

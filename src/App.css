@@ -1,1 +1,47 @@
 /* Other rules */
+.wrapper {
+  width: 1100px;
+
+  margin: 100px auto 100px auto;
+  padding: 50px;
+}
+
+.account {
+  width: 1100px;
+
+  margin: 50px auto 50px auto;
+}
+.shadow {
+  box-shadow: 2px 10px 20px 20px #ccc;
+}
+
+.account:nth-child(1) div:nth-child(1) {
+  background-color: #1a76d2;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+  line-height: 24px;
+  color: white;
+  box-shadow: 2px 3px 5px 3px #ccc;
+}
+
+.account:nth-child(2) div:nth-child(1) {
+  background-color: #c2185b;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 30px;
+  line-height: 24px;
+  color: white;
+  box-shadow: 2px 3px 2px 5px #ccc;
+}
+
+/* Op represente les lignes d'élement de chaque operation */
+.op {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+}
+
+.date {
+  font-style: italic;
+  color: gray;
+}
